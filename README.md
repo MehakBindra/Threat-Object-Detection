@@ -3,9 +3,9 @@
 Put the input knife images- "images/knife/" directory
 Put the input scissors images- "images/scissors/" directory
 
-Now run preprocess.ipynb ob jupyter notebook
+Now run preprocess.py to randomly select test images.
 
-For training the model- 
+For training the model-
 
 Using lenet- "python train_lenet.py --dataset images --model lenet.model -p graph1"
 
@@ -20,7 +20,3 @@ On lenet.model- "python test_network.py --model lenet.model --image images/examp
 On resnet.model- "python test_network.py --model resnet.model --image images/examples/name_of_img.jpg/png"
 
 On vgg.model- "python test_network.py --model vgg.model --image images/examples/name_of_img.jpg/png"
-
-
-
-
